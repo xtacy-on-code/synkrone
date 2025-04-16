@@ -30,7 +30,6 @@ const nextConfig = {
   output: "export",
   reactStrictMode: true,
   basePath: "/synkrone",
-  };
 }
 
 if (userConfig) {
