@@ -27,6 +27,10 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  output: "export",
+  reactStrictMode: true,
+  basePath: "/synkrone",
+  };
 }
 
 if (userConfig) {
